@@ -37,3 +37,22 @@ def pair_sum_sequence(n):
 
 
 print(pair_sum_sequence(5))
+
+'''
+Take another example of finding complexity, even though iteration 2 times, it will be O(N) complex
+'''
+
+
+def foo(array):
+    total = 0
+    product = 1
+    for i in range(len(array)):
+        total += array[i]
+    print(total)
+
+    for i in range(len(array)):
+        product *= array[i]
+    print(product)
+
+
+foo([1, 2, 3, 4, 5])
