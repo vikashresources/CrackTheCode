@@ -56,3 +56,18 @@ def foo(array):
 
 
 foo([1, 2, 3, 4, 5])
+
+'''
+Here complexity will be O(N2) 
+'''
+
+
+def print_sequence(array):
+    j = i = 0
+    for i in range(len(array)):
+        j = j + 1
+        for j in range(len(array)):
+            print(array[i], array[j])
+
+
+print_sequence([1, 2, 3, 4, 5])
