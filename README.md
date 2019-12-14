@@ -23,7 +23,7 @@ Time Complexity  | Name
     log n        | Logarithmic (These are slower growing than linear function) 
       n          | Linear (These functions grow linearly with input size n) 
   n log n        | Linear Logarithmic (Faster than linear)
-     n2          | Quadratic (Grow faster than linear) 
+     n2          | Quadratic (Grow faster than linear)
 
 
 
