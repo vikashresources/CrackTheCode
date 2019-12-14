@@ -18,7 +18,7 @@ So, in that case, ideal solution could be running time of a given alogrithm as a
 Rate of growth: The rate @ which running time increases as function of input.
 
 | Time Complexity  | Name  | Description |
-| :------------ |:---------------:| -----:|
+| :------------ |:---------------:|:-----:|
 |     1         | Constant        | whatever is input size n, these functions take constant amount of time |
 |   log n       | Logarithmic     | These are slower growing than linear function |
 |     n         | Linear          | These functions grow linearly with input size n |
