@@ -1,7 +1,7 @@
 # CrackTheCode
 CrackTheCode is a collection of commonly used problems for testing one's coding aptitude and problem solving skills. Here focus will be on solution and optimization.
 
-****************************** ### Algorithm Discussion *****************************
+### Algorithm Discussion
 
 Alogrithm is a step by step solution to a given problem. example could be a step by step recipe of preparing your favourite dish
 
