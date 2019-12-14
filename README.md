@@ -18,3 +18,6 @@ So, in that case, ideal solution could be running time of a given alogrithm as a
 Rate of growth: The rate @ which running time increases as function of input.
 
 
+                                                      ....more to follow...
+
+
