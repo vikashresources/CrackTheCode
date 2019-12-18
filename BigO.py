@@ -71,3 +71,27 @@ def print_sequence(array):
 
 
 print_sequence([1, 2, 3, 4, 5])
+
+'''Time complexity of below program is O(n)'''
+
+
+def count_set_bits(n):
+    count = 0
+    while n:
+        count += n & 1
+        n >>= 1
+    return count
+
+
+def count__rec_set_bits(n):
+    # base case
+    if n == 0:
+        return 0
+    else:
+        # if last bit set add 1 else
+        # add 0
+        return (n & 1) + count__rec_set_bits(n >> 1)
+
+
+print(count_set_bits(5))
+print(count__rec_set_bits(5))
