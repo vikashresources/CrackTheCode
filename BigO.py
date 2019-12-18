@@ -95,3 +95,15 @@ def count__rec_set_bits(n):
 
 print(count_set_bits(5))
 print(count__rec_set_bits(5))
+
+
+def get_parity(n):
+    parity = 0
+    while n:
+        parity = ~parity
+        n = n & (n - 1)
+    return parity
+
+
+n = 7
+print("Parity of no ", n, " = ", ("odd" if get_parity(n) else "even"))
